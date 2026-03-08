@@ -19,8 +19,8 @@ Engine_rpm = st.number_input("Engine rpm", min_value=61.0, max_value=2239.0, val
 lub_oil_press = st.number_input("Lub oil pressure", min_value=0.003384, max_value=7.265566, value=1.0, step=0.0001)
 fuel_press = st.number_input("Fuel pressure", min_value=0.003187, max_value=21.389, value=1.0, step=0.0001)
 coolant_press = st.number_input("Coolant pressure", min_value=0.002483, max_value=7.4785, value=1.0, step=0.0001)
-lub_oil_temp = st.number_input("lub oil temp", min_value=71.3219, max_value=89.5808, value=10,step=0.0001)
-coolant_temp = st.number_input("Coolant temp", min_value=61.6733, max_value=195.5279, value=10,step=0.0001)
+lub_oil_temp = st.number_input("lub oil temp", min_value=71.3219, max_value=89.5808, value=75,step=0.0001)
+coolant_temp = st.number_input("Coolant temp", min_value=61.6733, max_value=195.5279, value=70,step=0.0001)
 
 # Assemble input into DataFrame
 input_data = pd.DataFrame([{
